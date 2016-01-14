@@ -134,14 +134,14 @@ void print(int board[][BOARD_HEIGHT])
 
 void main()
 {
-	int	board[BOARD_WIDTH][BOARD_HEIGHT];
+	int board[BOARD_WIDTH][BOARD_HEIGHT];
 
 	for (i = 0; i < 32; i++)
 	for (j = 0; j < 32; j++)
 		set_pixel(i, j, 0);
 
 	initialize(board);
-    print(board);
+	print(board);
 
 	while(1)
 	{
