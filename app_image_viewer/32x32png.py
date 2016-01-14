@@ -20,7 +20,9 @@ numpy.set_printoptions(threshold=numpy.nan)
 
 
 def replace(text):
-    return text.replace(' ', ',').replace(',,', ',').replace(',,', ',').replace('[', '').replace(']', '')
+    text = text.replace('[ ', '').replace('[', '').replace(']', '')
+    text = text.replace(' ', ',').replace(',,', ',').replace(',,', ',')
+    return text
 
 print("uint8_t r[32][32] = {")
 print(replace(str(r)))

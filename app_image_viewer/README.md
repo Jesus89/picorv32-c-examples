@@ -9,7 +9,9 @@ pip install pypng
 ### Execute
 
 ```
-make run img=tux
+make run -B img=tux
 ```
 
-List of available img: `tux`, `bq`
+List of available img:
+
+  `clifford`, `os`, `oh`, `gnu`, `tux`, `riscv`, `rpi`, `smiley`, `bq`

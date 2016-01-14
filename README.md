@@ -11,6 +11,7 @@
 ### Examples
 
  * [Game of life](app_game_of_life/)
+ * [Image viewer](app_image_viewer/)
  * [Clifford C3](http://svn.clifford.at/handicraft/2015/c3demo/)
 
 ### Workbench
