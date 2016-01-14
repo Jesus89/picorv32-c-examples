@@ -1,5 +1,7 @@
 # C examples for picorv32
 
+License [GPLv2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
 ### Using
 
  * [picorv32](https://github.com/cliffordwolf/picorv32)
