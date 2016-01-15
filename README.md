@@ -14,6 +14,7 @@ License [GPLv2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
  * [Game of life](app_game_of_life/)
  * [Image viewer](app_image_viewer/)
+ * [Carousel](app_carousel/)
  * [Clifford C3](http://svn.clifford.at/handicraft/2015/c3demo/)
 
 ### Workbench
