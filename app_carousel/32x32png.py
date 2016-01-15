@@ -4,7 +4,7 @@ import numpy
 import itertools
 
 
-images = ['riscv', 'rpi']
+images = ['clifford', 'os', 'oh', 'gnu', 'tux', 'riscv', 'rpi', 'smiley', 'bq']
 
 numpy.set_printoptions(threshold=numpy.nan)
 

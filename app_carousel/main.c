@@ -29,7 +29,7 @@ void main()
 		for (j = 0; j < 32; j++)
 			set_pixel(i, j, r[n][j][i], g[n][j][i], b[n][j][i]);
 
-		for (i = 0; i < 10000; i++)
+		for (i = 0; i < 3*350000; i++)
 			asm volatile ("");
 
 		n = (n + 1) % num;
